@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3DB54C1EBDB1D7008EA967 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DB54B1EBDB1D7008EA967 /* RegistrationController.swift */; };
+		CE3DB5501EBDB739008EA967 /* AuthorizationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DB54F1EBDB739008EA967 /* AuthorizationController.swift */; };
+		CE800F811EC83EEE002E179E /* MultiSelectSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = CE800F741EC83EEE002E179E /* MultiSelectSegmentedControl.m */; };
+		CE800F8E1EC842D2002E179E /* MultiSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE800F8D1EC842D2002E179E /* MultiSegment.swift */; };
+		CEFA7F281EB9F1AF000B5AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA7F271EB9F1AF000B5AE1 /* AppDelegate.swift */; };
+		CEFA7F2A1EB9F1AF000B5AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA7F291EB9F1AF000B5AE1 /* ViewController.swift */; };
+		CEFA7F2D1EB9F1B0000B5AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFA7F2B1EB9F1B0000B5AE1 /* Main.storyboard */; };
+		CEFA7F301EB9F1B1000B5AE1 /* HairSalone_New_1_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFA7F2E1EB9F1B1000B5AE1 /* HairSalone_New_1_0.xcdatamodeld */; };
+		CEFA7F321EB9F1B1000B5AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA7F311EB9F1B1000B5AE1 /* Assets.xcassets */; };
+		CEFA7F351EB9F1B1000B5AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFA7F331EB9F1B1000B5AE1 /* LaunchScreen.storyboard */; };
+		CEFA7F3D1EB9F3DB000B5AE1 /* MasterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA7F3C1EB9F3DB000B5AE1 /* MasterInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE3DB54B1EBDB1D7008EA967 /* RegistrationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		CE3DB54F1EBDB739008EA967 /* AuthorizationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationController.swift; sourceTree = "<group>"; };
+		CE800F721EC83EED002E179E /* HairSalone New 1.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HairSalone New 1.0-Bridging-Header.h"; sourceTree = "<group>"; };
+		CE800F731EC83EEE002E179E /* MultiSelectSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiSelectSegmentedControl.h; sourceTree = "<group>"; };
+		CE800F741EC83EEE002E179E /* MultiSelectSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiSelectSegmentedControl.m; sourceTree = "<group>"; };
+		CE800F8D1EC842D2002E179E /* MultiSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSegment.swift; sourceTree = "<group>"; };
+		CEFA7F241EB9F1AF000B5AE1 /* HairSalone New 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HairSalone New 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFA7F271EB9F1AF000B5AE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFA7F291EB9F1AF000B5AE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFA7F2C1EB9F1B0000B5AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFA7F2F1EB9F1B1000B5AE1 /* HairSalone_New_1_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HairSalone_New_1_0.xcdatamodel; sourceTree = "<group>"; };
+		CEFA7F311EB9F1B1000B5AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFA7F341EB9F1B1000B5AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFA7F361EB9F1B1000B5AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFA7F3C1EB9F3DB000B5AE1 /* MasterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFA7F211EB9F1AF000B5AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE800F8C1EC842AD002E179E /* MultiSegment */ = {
+			isa = PBXGroup;
+			children = (
+				CE800F731EC83EEE002E179E /* MultiSelectSegmentedControl.h */,
+				CE800F741EC83EEE002E179E /* MultiSelectSegmentedControl.m */,
+			);
+			name = MultiSegment;
+			sourceTree = "<group>";
+		};
+		CEFA7F1B1EB9F1AE000B5AE1 = {
+			isa = PBXGroup;
+			children = (
+				CEFA7F261EB9F1AF000B5AE1 /* HairSalone New 1.0 */,
+				CEFA7F251EB9F1AF000B5AE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFA7F251EB9F1AF000B5AE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA7F241EB9F1AF000B5AE1 /* HairSalone New 1.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFA7F261EB9F1AF000B5AE1 /* HairSalone New 1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA7F271EB9F1AF000B5AE1 /* AppDelegate.swift */,
+				CEFA7F291EB9F1AF000B5AE1 /* ViewController.swift */,
+				CEFA7F2B1EB9F1B0000B5AE1 /* Main.storyboard */,
+				CEFA7F3C1EB9F3DB000B5AE1 /* MasterInfo.swift */,
+				CE3DB54F1EBDB739008EA967 /* AuthorizationController.swift */,
+				CE3DB54B1EBDB1D7008EA967 /* RegistrationController.swift */,
+				CEFA7F311EB9F1B1000B5AE1 /* Assets.xcassets */,
+				CEFA7F331EB9F1B1000B5AE1 /* LaunchScreen.storyboard */,
+				CEFA7F361EB9F1B1000B5AE1 /* Info.plist */,
+				CEFA7F2E1EB9F1B1000B5AE1 /* HairSalone_New_1_0.xcdatamodeld */,
+				CE800F8D1EC842D2002E179E /* MultiSegment.swift */,
+				CE800F8C1EC842AD002E179E /* MultiSegment */,
+				CE800F721EC83EED002E179E /* HairSalone New 1.0-Bridging-Header.h */,
+			);
+			path = "HairSalone New 1.0";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFA7F231EB9F1AF000B5AE1 /* HairSalone New 1.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFA7F391EB9F1B1000B5AE1 /* Build configuration list for PBXNativeTarget "HairSalone New 1.0" */;
+			buildPhases = (
+				CEFA7F201EB9F1AF000B5AE1 /* Sources */,
+				CEFA7F211EB9F1AF000B5AE1 /* Frameworks */,
+				CEFA7F221EB9F1AF000B5AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HairSalone New 1.0";
+			productName = "HairSalone New 1.0";
+			productReference = CEFA7F241EB9F1AF000B5AE1 /* HairSalone New 1.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFA7F1C1EB9F1AF000B5AE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Elvin778;
+				TargetAttributes = {
+					CEFA7F231EB9F1AF000B5AE1 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = C4DXK877P4;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CEFA7F1F1EB9F1AF000B5AE1 /* Build configuration list for PBXProject "HairSalone New 1.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFA7F1B1EB9F1AE000B5AE1;
+			productRefGroup = CEFA7F251EB9F1AF000B5AE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFA7F231EB9F1AF000B5AE1 /* HairSalone New 1.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFA7F221EB9F1AF000B5AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA7F351EB9F1B1000B5AE1 /* LaunchScreen.storyboard in Resources */,
+				CEFA7F321EB9F1B1000B5AE1 /* Assets.xcassets in Resources */,
+				CEFA7F2D1EB9F1B0000B5AE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFA7F201EB9F1AF000B5AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3DB5501EBDB739008EA967 /* AuthorizationController.swift in Sources */,
+				CE800F811EC83EEE002E179E /* MultiSelectSegmentedControl.m in Sources */,
+				CEFA7F2A1EB9F1AF000B5AE1 /* ViewController.swift in Sources */,
+				CE800F8E1EC842D2002E179E /* MultiSegment.swift in Sources */,
+				CEFA7F281EB9F1AF000B5AE1 /* AppDelegate.swift in Sources */,
+				CEFA7F301EB9F1B1000B5AE1 /* HairSalone_New_1_0.xcdatamodeld in Sources */,
+				CE3DB54C1EBDB1D7008EA967 /* RegistrationController.swift in Sources */,
+				CEFA7F3D1EB9F3DB000B5AE1 /* MasterInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEFA7F2B1EB9F1B0000B5AE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFA7F2C1EB9F1B0000B5AE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFA7F331EB9F1B1000B5AE1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFA7F341EB9F1B1000B5AE1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFA7F371EB9F1B1000B5AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFA7F381EB9F1B1000B5AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFA7F3A1EB9F1B1000B5AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = C4DXK877P4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HairSalone\\ New\\ 1.0",
+					"$(PROJECT_DIR)/HairSalone\\ New\\ 1.0",
+					"$(PROJECT_DIR)/HairSalone\\ New\\ 1.0",
+				);
+				INFOPLIST_FILE = "HairSalone New 1.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSProgrammer.HairSalone-New-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HairSalone New 1.0/HairSalone New 1.0-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEFA7F3B1EB9F1B1000B5AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = C4DXK877P4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HairSalone\\ New\\ 1.0",
+					"$(PROJECT_DIR)/HairSalone\\ New\\ 1.0",
+					"$(PROJECT_DIR)/HairSalone\\ New\\ 1.0",
+				);
+				INFOPLIST_FILE = "HairSalone New 1.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IOSProgrammer.HairSalone-New-1-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HairSalone New 1.0/HairSalone New 1.0-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFA7F1F1EB9F1AF000B5AE1 /* Build configuration list for PBXProject "HairSalone New 1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFA7F371EB9F1B1000B5AE1 /* Debug */,
+				CEFA7F381EB9F1B1000B5AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFA7F391EB9F1B1000B5AE1 /* Build configuration list for PBXNativeTarget "HairSalone New 1.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFA7F3A1EB9F1B1000B5AE1 /* Debug */,
+				CEFA7F3B1EB9F1B1000B5AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CEFA7F2E1EB9F1B1000B5AE1 /* HairSalone_New_1_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CEFA7F2F1EB9F1B1000B5AE1 /* HairSalone_New_1_0.xcdatamodel */,
+			);
+			currentVersion = CEFA7F2F1EB9F1B1000B5AE1 /* HairSalone_New_1_0.xcdatamodel */;
+			path = HairSalone_New_1_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CEFA7F1C1EB9F1AF000B5AE1 /* Project object */;
+}
